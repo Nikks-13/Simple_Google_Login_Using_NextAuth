@@ -1,0 +1,15 @@
+# Redirect authenticated users to the dashboard
+/dashboard  /dashboard
+
+# Keep unauthenticated users on the home page
+/*    /
+
+# Redirect to the main page component for any path
+/*    /page
+
+# Exclude some paths from the main redirect (Next.js specific)
+/_next/*    ! 200
+/api/*      ! 200
+
+# If the path is not matched by the rules above, redirect to the main page
+/*    /page
