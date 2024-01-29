@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simple Login Using Next Auth
+A simple authentication system using NextAuth.js with Google authentication. This project provides a basic login functionality using Next.js and NextAuth.js, allowing users to sign in securely with their Google accounts.
+### Login
+![screenshot](https://raw.githubusercontent.com/Nikks-13/Simple_Google_Login_Using_NextAuth/main/screenshot/Screenshot%202024-01-29%20at%206.46.16%E2%80%AFPM.png)
 
-## Getting Started
+### Dashboard
+![screenshot](https://raw.githubusercontent.com/Nikks-13/Simple_Google_Login_Using_NextAuth/main/screenshot/Screenshot%202024-01-29%20at%206.46.39%E2%80%AFPM.png)
 
-First, run the development server:
+# Getting Started:
+
+Clone the repository: git clone 
+Install dependencies: npm install
+Configure Google API credentials.
+Run the application: npm run dev
+
+
+## Deployment
+
+Clone the repository: 
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/Nikks-13/Simple_Google_Login_Using_NextAuth
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Configure Google API credentials and Run the application
+ ```bash 
+ npm run dev
+ ```
+## Environment Variables
 
-## Learn More
+To run this project, you will need to add the following environment variables to your .env file
 
-To learn more about Next.js, take a look at the following resources:
+`GOOGLE_ID ` 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`GOOGLE_SECRET`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`NEXTAUTH_URL ` 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`NEXTAUTH_SECRET   `
