@@ -22,7 +22,7 @@ const page = () => {
           <p className="text-5xl m-10 text-white  font-sans ">
             Welcome, <span className=" text-red-700">{data?.user?.name}</span>!
             <div className="flex-col flex justify-center items-center">
-            <Image
+            <img
           className="rounded-lg mt-10"
           src={data?.user?.image}
           alt={`${data?.user?.name}'s profile`}
