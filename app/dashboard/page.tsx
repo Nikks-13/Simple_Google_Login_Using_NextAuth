@@ -22,12 +22,13 @@ const page = () => {
           <p className="text-5xl m-10 text-white  font-sans ">
             Welcome, <span className=" text-red-700">{data?.user?.name}</span>!
             <div className="flex-col flex justify-center items-center">
-            <img 
-              className=" rounded-lg mt-10"
-              src={data?.user?.image}
-              alt={`${data?.user?.name}'s profile`}
-              height={100} width={100}
-            /></div>
+            <Image
+          className="rounded-lg mt-10"
+          src={data?.user?.image}
+          alt={`${data?.user?.name}'s profile`}
+          height={100}
+          width={100}
+        /></div>
           </p>
           <p className="text-xl text-white font-sans">
             Verified Email :{" "}
